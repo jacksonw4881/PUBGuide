@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdvanceTips">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/anything"
+                android:layout_width="409dp"
+                android:layout_height="35dp"
+                android:background="#3c0091"
+                android:text="Scroll down to view more tips"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/sr"
+                android:layout_width="409dp"
+                android:layout_height="138dp"
+                android:background="#240057"
+                android:text="Sniper Rifle Quick Swap"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/anything" />
+
+            <Button
+                android:id="@+id/smalljumps"
+                android:layout_width="409dp"
+                android:layout_height="138dp"
+                android:background="#240057"
+                android:text="Small jumps and quick peeks for enemy info"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sr" />
+
+            <Button
+                android:id="@+id/prone"
+                android:layout_width="409dp"
+                android:layout_height="138dp"
+                android:background="#240057"
+                android:text="Falling prone midfire when spotted"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/smalljumps" />
+
+            <Button
+                android:id="@+id/grenade"
+                android:layout_width="409dp"
+                android:layout_height="138dp"
+                android:background="#240057"
+                android:text="Using nades, redzone, or plane as footstep cover"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prone" />
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="409dp"
+                android:layout_height="138dp"
+                android:background="#240057"
+                android:text="Close Quarters Combat"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/grenade" />
+
+            <Button
+                android:id="@+id/smokes"
+                android:layout_width="409dp"
+                android:layout_height="138dp"
+                android:background="#240057"
+                android:text="Using smokes"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/close" />
+
+            <Button
+                android:id="@+id/flanks"
+                android:layout_width="409dp"
+                android:layout_height="138dp"
+                android:background="#240057"
+                android:text="Pulling Flanks"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/smokes" />
+
+            <Button
+                android:id="@+id/gatekeeping"
+                android:layout_width="409dp"
+                android:layout_height="138dp"
+                android:background="#240057"
+                android:text="Gatekeeping and Rotations"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/flanks" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#240057"
+    tools:context=".EarlyGame">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="409dp"
+        android:layout_height="500dp"
+        android:text="When parachuting into your chosen location, you should be aware of your surroundings as you might have company. The farther you travel from the plane path, the less likely you will encounter enemies. You want to avoid any early confrontation until you get yourself a suitable weapon and at least a level one vest and helmet. While looting, you should pay attention to the first circle, as this will determine how long you'll be able to stay behind and loot. If the circle is really far away, you should aim to find a vehicle, as these will allow you to cross greater distances while also providing some cover on the go."
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

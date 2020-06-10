@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#240057"
+    tools:context=".SniperRifleQuickSwap">
+
+    <TextView
+        android:id="@+id/firstsr"
+        android:layout_width="409dp"
+        android:layout_height="606dp"
+        android:text="SRs requires the most accuracy and precision when landing a shot, but when you do make the shot, it's sometimes best to not use the SR to knock/kill an enemy. When you have connect the SR shot to an enemy, it is best to immediately swap to an AR and shooting your enemy with it.\n\n\nThis is because the enemy's health will be low when you connect a shot with an SR, and shooting multiple shots at your enemy with an AR can increase the likelihood of knocking/killing the enemy.\n\n\nThis technique is best for enemies that have no cover because when they get shot by the SR, they would have little to no time to react and would to run to find cover."
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

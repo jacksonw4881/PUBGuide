@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#240057"
+    tools:context=".AdvanceTips">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/anything"
+        android:layout_width="409dp"
+        android:layout_height="35dp"
+        android:background="#3c0091"
+        android:text="Scroll down to view more tips"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="409dp"
+        android:layout_height="7dp"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anything" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="409dp"
+        android:layout_height="1245dp"
+        android:text="1. Use the training range to practice recoil control on certain guns.\n\n2. Set hotkeys for nades and meds.\n\n3. Spray in close fights, and tap in farther ones.\n\n4. Be aware of bullet drop and shell velocity when shooting with snipers\n\n5.Check your surroundings before looting, and try to loot as quickly as possible.\n\n6. Hotdrops are a hit or miss. It is better to land at areas that are not as contested. \n\n7. Airdrops are usually not worth it unless you are completely certain that you are safe.\n\n8. Crouching when shooting can significantly reduce recoil.\n\n9. Compensators are best for Squads and Duos, and suppressors are best for solos.\n\n10. Always ADS with red dot or holoscope when fighting in close encounters.\n\n11. The optimal loadout is AR/SR in solos, and AR/DMR in Duos/Squads.\n\n12. Never engage in a gunfight if you have no cover, unless you know that you and your enemy are the only people left.\n\n13. Half grip is best for spraying and vertical grip is best for tapping.\n\n14. Sound is very important in the game to hear where your shots are coming from.\n\n15. Shooting a flare inside the circle will give you a crate, but shooting it outside the circle will give you a BRDM.\n\n16. An AWM will always knock/kill an enemy if it is a headshot, regardless of helmet level.\n\n17. Any weapon that is not ARs, LMGs, SRs, DMRs, or nades are not optimal late game.\n\n18. M416 is the most versatile AR in the game.\n\n19. You can sprint faster by putting your gun away.\n\n20. Have good game sense by practicing playing. Player with good game sense can predict enemy moves, can know when to shoot, and can know when to push/stay defensive."
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

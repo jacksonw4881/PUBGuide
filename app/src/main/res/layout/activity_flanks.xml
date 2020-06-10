@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#240057"
+    tools:context=".Flanks">
+
+    <TextView
+        android:id="@+id/firstsr"
+        android:layout_width="409dp"
+        android:layout_height="717dp"
+        android:text="Being successful at flanking is pivotal to becoming successful at the game. There are a few things to keep in mind before performing a flank.\n\n1. Sight Lines:\n\nYou need to locate the enemy's position and try to imagine what the enemy sees from their eyes. It is very important to know what the enemy can and cannot see and is the most crucial factor at pulling off a successful flank. Knowing the enemy sight lines can determine what route to take.\n\n2. Timing:\n\nYou need to make sure that your flanks are quick. If the flanks are too wide or too slow, then there could be a chance that the enemy could flee the area our your teammates could get knocked/killed.\n\n3. Communication amongst Teammates (Squads/Duos):\n\nMake sure that you tell your teammates that you are running a flank, and which direction you are going. They can hold angles and tell you information that is helpful."
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

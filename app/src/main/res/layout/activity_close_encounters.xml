@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#240057"
+    tools:context=".CloseEncounters">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="409dp"
+        android:layout_height="724dp"
+        android:text="When fighting enemies at very close proximities, using nades are helpful to deafen enemies and push enemies back. It is also helpful to prefire certain areas that you might think the enemy will be. It is important to make sure to avoid prematurely reloading your gun when you have more than ten rounds in your gun because it can make you completely vulnerable if the enemy rushes towards you.\n\n\nIt is also important to make sure that when you are shot at extremely close proximities, you do not heal. This is because your enemy will most likely rush you after shooting you, and healing can make you completely vulnerable to the enemy. Similarly, if your teammate was knocked and the enemy is very close, you do not revive them since it will leave you completely vulnerable if the enemy rushes you."
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

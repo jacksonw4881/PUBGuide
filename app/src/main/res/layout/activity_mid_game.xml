@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#240057"
+    tools:context=".MidGame">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="409dp"
+        android:layout_height="500dp"
+        android:text="You need to keep the circle in mind and think about what your plan for the whole game is. Of course, circle RNG is completely random, but you need to plan accordingly if the circle goes in your favor or not. Choke points like bridges and strategic positions like tall buildings overlooking rural areas are useful to hold when the circle starts pushing enemies toward you. Gatekeeping can also be helpful when you know that other enemies will be forced to come towards your direction while you are in the edge of the circle. When you close in on the late game, you should start being more aware about when to shoot anyone, as a small circle, especially with a high remaining player count, will mean more players around you."
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

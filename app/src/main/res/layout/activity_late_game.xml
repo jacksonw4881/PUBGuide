@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#240057"
+    tools:context=".LateGame">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="409dp"
+        android:layout_height="500dp"
+        android:text="It's very important to know when to pick fights, as waiting for someone else starting a fight and then third partying will allow you to pick up easy kills on distracted enemies. Stay close to the blue instead of moving directly into the middle of the last few circles to prevent getting shot from every possible direction. Move by the blue in the direction towards the next circle so you don't get shot in the back, while carefully clearing the area around you. It is fine to scan the vicinity around you, but be aware of any enemies that might try to snipe you. Gaining information on player positions and knowing where fights are likely to happen in the next couple of moments will drastically improve your odds of winning."
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

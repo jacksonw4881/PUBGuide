@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#240057"
+    tools:context=".Gatekeeping">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="409dp"
+        android:layout_height="520dp"
+        android:text="Gatekeeping is preventing other teams that are outside the circle from coming in the circle by shooting them. To gatekeep, you need to make sure that you are inside the circle with cover.\n\nYou should preferably be in the middle of the circle midgame so that you will not have to rotate that much in the final circles, but if you are at the edge of the circle, it is a good idea to gatekeep teams that are at the edge of the blue.\n\nDuring midgame or late game, if you are not at the circle, it is best to rotate around the edge of the blue in a curve path. This is because other teams might be situated inside the edges of the circle, and rotating straight towards the circle can increase your likelihood of getting third partied."
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#240057"
+    tools:context=".FallingProne">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="409dp"
+        android:layout_height="737dp"
+        android:text="When an enemy is shooting at you and you have no good cover, you can prone before the enemy shoots or midfire and then shoot at the enemy to throw the enemy off. If you do this technique, make sure that you have some sort of small cover in front of you such as grass or a ridge, otherwise your head will be completely exposed to the enemy.\n\n\nThe major drawback about this technique is that it can leave you completely stationary and very vulnerable, and should be used as a last resort. When used and timed perfectly, it can save you from many engagements."
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

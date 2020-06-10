@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#240057"
+    tools:context=".GunSoundQuiz">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/anything"
+                android:layout_width="409dp"
+                android:layout_height="35dp"
+                android:background="#3c0091"
+                android:text="Scroll down to view more weapons"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/anything1"
+                android:layout_width="409dp"
+                android:layout_height="35dp"
+                android:background="#3c0091"
+                android:text="Click on a weapon to hear the sound"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/anything2"
+                android:layout_width="409dp"
+                android:layout_height="4dp"
+                android:background="#3c0091"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/akm1"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="AKM"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/anything2" />
+            <Button
+                android:id="@+id/auga3"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="aug a3"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/akm1" />
+            <Button
+                android:id="@+id/m762"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="Beryl M762"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/auga3" />
+            <Button
+                android:id="@+id/groza"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="groza"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/m762" />
+            <Button
+                android:id="@+id/m16a4"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="m16a4"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/groza" />
+
+            <Button
+                android:id="@+id/m416"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:text="m416"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/m16a4" />
+
+            <Button
+                android:id="@+id/mutant"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="Mk47 Mutant"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/m416" />
+            <Button
+                android:id="@+id/qbz"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="qbz95"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mutant" />
+            <Button
+                android:id="@+id/scar"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="scar-l"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/qbz" />
+            <Button
+                android:id="@+id/mini"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="mini 14"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/scar" />
+
+            <Button
+                android:id="@+id/mk14"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="mk14 ebr"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mini" />
+
+            <Button
+                android:id="@+id/qbu"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="qbu"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mk14" />
+            <Button
+                android:id="@+id/sks"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="sks"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/qbu" />
+            <Button
+                android:id="@+id/slr"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="slr"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sks" />
+            <Button
+                android:id="@+id/vss"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="vss vintorez"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/slr" />
+            <Button
+                android:id="@+id/dp28"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="dp28"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/vss" />
+            <Button
+                android:id="@+id/m249"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="m249"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dp28" />
+            <Button
+                android:id="@+id/kar98k"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="Karabiner 98 Kurz"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/scar" />
+            <Button
+                android:id="@+id/m24"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="m24"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/kar98k" />
+            <Button
+                android:id="@+id/awm"
+                android:layout_width="409dp"
+                android:layout_height="115.33dp"
+                android:background="#240057"
+                android:textSize="20dp"
+                android:text="awm"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/m24" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

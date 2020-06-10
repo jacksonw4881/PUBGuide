@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pubg">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstQuiz"></activity>
+        <activity android:name=".LateGame" />
+        <activity android:name=".MidGame" />
+        <activity android:name=".EarlyGame" />
+        <activity android:name=".Gatekeeping" />
+        <activity android:name=".Flanks" />
+        <activity android:name=".UsingSmokes" />
+        <activity android:name=".CloseEncounters" />
+        <activity android:name=".UsingNades" />
+        <activity android:name=".FallingProne" />
+        <activity android:name=".SmallJumps" />
+        <activity android:name=".SniperRifleQuickSwap" />
+        <activity android:name=".GunSoundQuiz" />
+        <activity android:name=".Mistakes" />
+        <activity android:name=".TheGame" />
+        <activity android:name=".QuickTips" />
+        <activity android:name=".AdvanceTips" />
+        <activity android:name=".Recoil" />
+        <activity android:name=".Stock" />
+        <activity android:name=".LowerRail" />
+        <activity android:name=".UpperRail" />
+        <activity android:name=".Muzzle" />
+        <activity android:name=".Mag" />
+        <activity android:name=".Attachments" />
+        <activity android:name=".Grenades" />
+        <activity android:name=".Melee" />
+        <activity android:name=".Pistols" />
+        <activity android:name=".LMGs" />
+        <activity android:name=".SniperRifles" />
+        <activity android:name=".Shotguns" />
+        <activity android:name=".SMGs" />
+        <activity android:name=".DMRs" />
+        <activity android:name=".Bows" />
+        <activity android:name=".AssaultRifle" />
+        <activity android:name=".Karakin" />
+        <activity android:name=".Vikendi" />
+        <activity android:name=".Miramar" />
+        <activity android:name=".Erangel" />
+        <activity android:name=".Sanhok" />
+        <activity android:name=".Airdrops" />
+        <activity android:name=".Maps" />
+        <activity android:name=".Vehicles" />
+        <activity android:name=".Equipment" />
+        <activity android:name=".Items" />
+        <activity android:name=".HowToPlay" />
+        <activity android:name=".BlackZone" />
+        <activity android:name=".RedZone" />
+        <activity android:name=".BlueZone" />
+        <activity android:name=".AllWeapons" />
+        <activity android:name=".Weapons" />
+        <activity android:name=".BestLoadout" />
+        <activity android:name=".WeaponGuide" />
+        <activity android:name=".Zone" />
+        <activity android:name=".GettingStarted" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

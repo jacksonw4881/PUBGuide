@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#240057"
+    tools:context=".UsingNades">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="409dp"
+        android:layout_height="634dp"
+        android:text="When you have spotted an enemy at close proximity, it is best to sneak up as close as possible and throw nades. The goal is to knock/kill the enemy with the nade, but it can also be used to confuse and deafen the enemy, which can make it easier for you to rush towards them as they cannot hear your footsteps for a brief period because of the grenade blast.\n\n\nWhen a plane is flying overhead, you can use the noise of the plane to mask your footstep sound and rush towards an enemy. Similarly, if you are near or very close to the red zone, you can use the explosion of the red zone to mask your footstep sound and rush towards an enemy."
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
